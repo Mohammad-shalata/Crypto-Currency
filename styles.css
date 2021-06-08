@@ -1,0 +1,143 @@
+body.html {
+    max-width: 100%;
+}
+
+header {
+    background-image: url("assest/image/background.png");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+
+.pageContent {
+    background-image: url("assest/image/background.png");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 457px;
+}
+
+#coinsCards {
+    box-sizing: border-box;
+    display: table;
+    max-width: 190px;
+    height: 161px;
+    margin: 5px;
+    opacity: 90%;
+    border: 3px solid black;
+    border-radius: 0 0 0 20px;
+}
+#coinsCards:hover {
+    box-shadow: 5px 7px 5px rgb(224, 236, 48);
+
+}
+
+#ajaxCoins {
+    padding: 15px;
+}
+
+#logo {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 50px;
+    font-size: 80px;
+    color: rgb(48, 97, 204);
+    text-shadow: 3px 1px 4px white;
+}
+
+#mySwitch {
+    float: right;
+    position: relative;
+    left: 25px;
+}
+
+.nav {
+    margin-top: 110px;
+}
+
+h5.card-title {
+    display: flex;
+    font-size: 13px;
+    font-weight:bold;
+    padding: 0;
+    margin: 0;
+    border-bottom: 2px solid black;
+}
+
+p.card-text {
+    font-size: smaller;
+    padding: 0;
+    margin-top: 3px;
+}
+.card > .card-body p {
+    font-size: small;
+    padding: 0;
+    margin: 0;
+    margin-top:5px;
+  
+   }
+
+.pageContent>.alert-danger {
+    padding: 0;
+    margin: 0;
+}
+
+header>.nav {
+    margin-top: 60px;
+    opacity: 90%;
+}
+
+
+
+
+/*About*/
+.about {
+    margin: 0;
+    padding: 0;
+}
+.about>img {
+    height: 200px;
+    width: 250px;
+}
+.cc-profile-image a {
+    position: relative;
+}
+
+.cc-profile-image img {
+    position: relative;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    padding: 0;
+    margin: 0;
+    border: 30px solid transparent;
+    z-index: 9999;
+    transition: all .3s ease-out;
+}
+
+.cc-profile-image a:hover img {
+    transform: scale(1.06, 1.06);
+}
+
+.cc-profile-image a:hover:before {
+    -webkit-animation: none;
+    animation: none;
+}
+
+div > a {
+    font-weight:bold;
+}
+.copyright {
+    background-color: #333333;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    bottom: 0;
+    
+}
+
