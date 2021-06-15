@@ -1,10 +1,8 @@
 # Crypto-Currency
 This projected was created using: HTML, CSS3, JAVASCRIPT, JQUERY, AJAX, REST API,  BOOTSTRAP.
 
-<div align="center" > 
-  <img src="./assets/images/code/crypto currency.PNG"  />
-  &#xa0;
-</div>
+![crypto currency](https://user-images.githubusercontent.com/75893574/122091003-08108b80-ce11-11eb-974c-d09c22aad245.PNG)
+
 
 ## :dart: About ##
 
